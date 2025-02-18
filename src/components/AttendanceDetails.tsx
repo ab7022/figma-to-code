@@ -14,9 +14,9 @@ const AttendanceTable = () => {
 
 
   return (
-    <div className="w-full shadow-md rounded-lg overflow-hidden mt-3 bg-white">
-      <div className="border border-gray-300 rounded-lg overflow-hidden bg-white ">
-        <table className="w-full border-collapse">
+    <div className="w-full shadow-md rounded-lg overflow-x-scroll mt-3 bg-white">
+      <div className="border border-gray-300 rounded-lg  bg-white ">
+        <table className="w-full ">
           <thead>
             <tr>
               <th className="px-1 py-1 text-left border border-gray-200">
