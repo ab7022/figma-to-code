@@ -1,10 +1,12 @@
+import image from "../../bhaskar.jpg";
+
 const ATTENDANCE_DATA = {
     employee: {
       id: 1,
       name: "Bhaskar Sharma",
       role: "Sales Manager",
       department: "Sales Dept.",
-      image: "../bhaskar.jpg",
+      image:image
     },
     attendanceRecords: Array(13)
       .fill(null)
@@ -27,8 +29,7 @@ const ATTENDANCE_DATA = {
         name: "Bhaskar Sharma",
         role: "Sales Manager",
         department: "Sales Dept.",
-        image: "../bhaskar.jpg",
-      })),
+image:image      })),
     };
     type ErrorType = "location" | "late" | "user";
 

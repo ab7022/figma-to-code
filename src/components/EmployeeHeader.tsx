@@ -1,5 +1,5 @@
 import React from "react";
-
+import image from "../../bhaskar.jpg";
 const EmployeeHeader = () => {
   return (
     <div className="bg-white rounded-xl mb-2 shadow-md">
@@ -7,7 +7,7 @@ const EmployeeHeader = () => {
         {/* Employee Info */}
         <div className="flex mt-4 items-center justify-center flex-row space-x-3 p-4 ">
           <img
-            src="/../../bhaskar.jpg"
+            src={image}
             alt="Employee"
             className="w-12 h-12 rounded-full border border-gray-200"
           />

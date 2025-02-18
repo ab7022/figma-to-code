@@ -1,7 +1,7 @@
 import React from "react";
 import { ChevronDown } from "lucide-react";
 import Sidebar from "./components/Sidebar";
-import ATTENDANCE_DATA from "./data/ATTENDANCE_DATA";
+import {ATTENDANCE_DATA} from "./data/ATTENDANCE_DATA";
 import TopNav from "./components/TopNav";
 import Filters from "./components/Filters";
 import EmployeeList from "./components/EmployeeList";
